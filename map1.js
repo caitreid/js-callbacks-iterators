@@ -40,3 +40,4 @@ let forecast = [
 // "Monday will have a high of 55F and a low of 53F."
 
 //Your code here
+forecast.map((day) => console.log(`${day.day} will have a high of ${day.high} and a low of ${day.low}.`))
